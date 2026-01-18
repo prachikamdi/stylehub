@@ -1,171 +1,63 @@
-Absolutely! Here's a clean and stylish clothing website built using HTML and CSS. It includes a header, navigation menu bar, featured section, product grid, and footer — ideal for showcasing fashion collections.
-
-👗 Clothing Website Template (HTML + CSS)
-📄 index.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>StyleHub Clothing</title>
-  <link rel="stylesheet" href="style.css">
-
-
-
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VRY2QE28CB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VRY2QE28CB');
-</script>
-</head>
 <body>
-  <header>
+
+  <header style="text-align:center; padding:20px;">
     <h1>StyleHub</h1>
-    <p>Your Fashion Destination</p>
+    <p>Your daily dose of fashion, style & confidence ✨</p>
+    <img src="https://images.unsplash.com/photo-1521334884684-d80222895322"
+         alt="Fashion Banner"
+         style="width:100%; max-height:400px; object-fit:cover; border-radius:10px;">
   </header>
 
-  <nav>
+  <section style="padding:20px;">
+    <h2>About StyleHub</h2>
+    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b"
+         alt="About Fashion"
+         style="width:100%; max-width:500px; border-radius:10px;">
+    <p>
+      StyleHub is a fashion and lifestyle platform created to inspire
+      modern style with simplicity and affordability.
+      We believe fashion is not about brands, it’s about confidence.
+    </p>
+  </section>
+
+  <section style="padding:20px;">
+    <h2>Fashion Categories</h2>
+
+    <h3>👗 Daily Wear</h3>
+    <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f"
+         style="width:100%; max-width:400px; border-radius:10px;">
+    <p>Simple, comfortable and stylish outfits for everyday life.</p>
+
+    <h3>✨ Party & Occasion Wear</h3>
+    <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38"
+         style="width:100%; max-width:400px; border-radius:10px;">
+    <p>Elegant fashion ideas for parties, functions and special days.</p>
+
+    <h3>🛍 Affordable Fashion</h3>
+    <img src="https://images.unsplash.com/photo-1495121605193-b116b5b09a19"
+         style="width:100%; max-width:400px; border-radius:10px;">
+    <p>Budget-friendly fashion tips so everyone can look stylish.</p>
+  </section>
+
+  <section style="padding:20px;">
+    <h2>Why Choose StyleHub?</h2>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Men</a></li>
-      <li><a href="#">Women</a></li>
-      <li><a href="#">Kids</a></li>
-      <li><a href="#">Sale</a></li>
-      <li><a href="#">Contact</a></li>
+      <li>✔ Simple & affordable fashion</li>
+      <li>✔ Honest styling inspiration</li>
+      <li>✔ Trend updates without hype</li>
+      <li>✔ Fashion for everyone</li>
     </ul>
-  </nav>
-
-  <section class="hero">
-    <h2>Fall Collection 2025</h2>
-    <p>Trendy styles for every season</p>
-    <a href="#" class="btn">Explore Now</a>
   </section>
 
-  <section class="products">
-    <h2>Featured Products</h2>
-    <div class="product-grid">
-      <div class="product-card">
-        <img src="https://via.placeholder.com/200x250?text=Men+Jacket" alt="Men Jacket">
-        <h3>Men's Jacket</h3>
-        <p>₹3,499</p>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/200x250?text=Women+Dress" alt="Women Dress">
-        <h3>Women's Dress</h3>
-        <p>₹2,999</p>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/200x250?text=Kids+T-Shirt" alt="Kids T-Shirt">
-        <h3>Kids' T-Shirt</h3>
-        <p>₹799</p>
-      </div>
-    </div>
+  <section style="padding:20px;">
+    <h2>Contact Us</h2>
+    <p>📧 Email: stylehub@gmail.com</p>
+    <p>📸 Instagram: @stylehub</p>
   </section>
 
-  <footer>
-    <p>&copy; 2025 StyleHub | Designed in India</p>
+  <footer style="text-align:center; padding:15px;">
+    <p>© 2026 StyleHub | Designed by Prachi Kamdi</p>
   </footer>
-</body>
-</html>
 
-
-🎨 style.css
-body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  background-color: #fdfdfd;
-  color: #333;
-}
+</body
 
-header {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 30px 10px;
-}
-
-nav {
-  background-color: #444;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-}
-
-nav ul li a:hover {
-  background-color: #333;
-}
-
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background-image: url('https://via.placeholder.com/1200x400?text=Fashion+Banner');
-  background-size: cover;
-  background-position: center;
-  color: white;
-}
-
-.hero .btn {
-  background-color: #e91e63;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.products {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.product-grid {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.product-card {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 15px;
-  width: 200px;
-}
-
-.product-card img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-
-
-
-Would you like to add a login page, shopping cart, or filter options next? I can help you build a full e-commerce experience.
